@@ -4,8 +4,8 @@
 
 An implementation of Position Based Fluids [Macklin+, SIGGRAPH 2013] in C++.
 
-![](./docs/sample-1.gif)
-![](./docs/sample-2.gif)
+![sample-1](./docs/sample-1.gif)
+![sample-2](./docs/sample-2.gif)
 
 ## Dependencies
 
@@ -17,6 +17,7 @@ An implementation of Position Based Fluids [Macklin+, SIGGRAPH 2013] in C++.
 ## Prerequisites
 
 macOS:
+
 ```sh
 brew install cmake eigen imath
 ```
@@ -26,6 +27,7 @@ Other environments (e.g., Ubuntu, Windows) are not tested.
 ## Implementation Details
 
 Supported:
+
 - Incompressibility constraint
 - Artificial surface tension
 - XSPH viscosity
@@ -34,6 +36,7 @@ Supported:
 - Alembic export
 
 Not supported:
+
 - Vorticity confinement
 - GPU computing
 - Surface reconstruction
